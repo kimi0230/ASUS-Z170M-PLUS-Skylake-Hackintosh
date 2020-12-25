@@ -1,5 +1,9 @@
 # AUSU-Z170M-PLUS-Skylake-Hackintosh
 
+## Opencore  0.6.4
+## MacOS Big Sur 11
+
+## Hardware
 | Category     | Brand                                                              |
 | -------- | ----------------------------------------------------------------|
 | CPU      | i5 6400                                                       |
