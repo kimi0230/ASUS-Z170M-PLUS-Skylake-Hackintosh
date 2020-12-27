@@ -1,4 +1,4 @@
-# AUSU-Z170M-PLUS-Skylake-Hackintosh
+# ASUS-Z170M-PLUS-Skylake-Hackintosh
 
 ## Opencore  0.6.4
 ## MacOS Big Sur 11.1
