@@ -21,6 +21,15 @@ https://kimi0230.medium.com/hackintosh-big-sur11-1-skylake-i5-6400-asus-z170m-pl
     * https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md
 * iMovies Can't Export
     * change iMac17,1 to iMac19,1
+* Sleep Wake failure in EFI 
+https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations
+``` shell
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+sudo pmset tcpkeepalive 0
+```
 
 ## Upgrade Opencore version
 01. Download Latest Version Opencore
