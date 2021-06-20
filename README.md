@@ -1,7 +1,5 @@
 # ASUS-Z170M-PLUS-Skylake-Hackintosh
-
-## Opencore  0.6.4
-## MacOS Big Sur 11.1
+Opencore EFI for ASUS-Z170-PlUS and i5-6400 and MacOS Big Sur 11.1
 
 ## Hardware
 | Category     | Brand                                                              |
@@ -22,7 +20,7 @@ https://kimi0230.medium.com/hackintosh-big-sur11-1-skylake-i5-6400-asus-z170m-pl
 * iMovies Can't Export
     * change iMac17,1 to iMac19,1
 * Sleep Wake failure in EFI 
-https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations
+    * https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations
 ``` shell
 sudo pmset autopoweroff 0
 sudo pmset powernap 0
