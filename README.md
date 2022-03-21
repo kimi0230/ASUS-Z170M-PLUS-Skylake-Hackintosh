@@ -37,11 +37,11 @@ sudo pmset tcpkeepalive 0
     * https://github.com/acidanthera/OpenCorePkg/releases
 02. copy X64/EFI as new EFI folder
 03. copy Docs/Sample.plist to new EFI/OC folder
-05. copy EFI/OC/ACPI
-06. copy EFI/OC/Drivers
-07. Downlad new [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html)
+05. copy old EFI/OC/ACPI to new EFI/OC/ACPI
+06. copy old EFI/OC/Drivers to new EFI/OC/Driver, ingore duplicate files.
+07. Download new [Kexts](https://dortania.github.io/OpenCore-Install-Guide/ktext.html)
     * [AppleALC](https://github.com/acidanthera/applealc/releases)
-    * AppleMCEReporterDisabler
+    * AppleMCEReporterDisabler  https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip
     * [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
     * [IntelMausi](https://github.com/acidanthera/IntelMausi/releases)
     * [Lilu](https://github.com/acidanthera/lilu/releases)
