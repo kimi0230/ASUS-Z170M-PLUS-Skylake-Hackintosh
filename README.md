@@ -14,6 +14,11 @@ Opencore EFI for ASUS-Z170-PlUS and i5-6400 and MacOS Big Sur 11.1
 https://kimi0230.medium.com/hackintosh-big-sur11-1-skylake-i5-6400-asus-z170m-plus-45b3380ec943
 
 
+## ACL codecs
+|Vendor	|Codec	|Revisions and layouts|	MinKernel	|MaxKernel|
+|--------|--------|---------------------|-------------|---------|
+|Realtek| [ALC887](https://github.com/acidanthera/AppleALC/blob/master/Resources/ALC887/Info.plist)|0x100202, 0x100302, layout 1, 2, 3, 5, 7, 11, 12, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99| 13 (10.9)| -|
+
 ## Miscellaneous
 * Apple TV Can't Play
     * https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md
