@@ -2,22 +2,22 @@
 Opencore EFI for ASUS-Z170-PlUS and i5-6400 and MacOS Big Sur 11.1
 
 ## Hardware
-| Category     | Brand                                                              |
-| -------- | ----------------------------------------------------------------|
-| CPU      | i5 6400                                                       |
-| MB       | ASUS Z170M-PLUS                                           |
-| m2 ssd   | wd blue sn550 1t                                                |
-| wifi     | BCM94360CD                                                      |
-| VGA      | ASUS rx5500 4g                                        |
+| Category | Brand            |
+|----------|------------------|
+| CPU      | i5 6400          |
+| MB       | ASUS Z170M-PLUS  |
+| m2 ssd   | wd blue sn550 1t |
+| wifi     | BCM94360CD       |
+| VGA      | ASUS rx5500 4g   |
 
 ## Install Guide
 https://kimi0230.medium.com/hackintosh-big-sur11-1-skylake-i5-6400-asus-z170m-plus-45b3380ec943
 
 
 ## ACL codecs
-|Vendor	|Codec	|Revisions and layouts|	MinKernel	|MaxKernel|
-|--------|--------|---------------------|-------------|---------|
-|Realtek| [ALC887](https://github.com/acidanthera/AppleALC/blob/master/Resources/ALC887/Info.plist)|0x100202, 0x100302, layout 1, 2, 3, 5, 7, 11, 12, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99| 13 (10.9)| -|
+| Vendor  | Codec                                                                                     | Revisions and layouts                                                                        | MinKernel | MaxKernel |
+|---------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------|-----------|
+| Realtek | [ALC887](https://github.com/acidanthera/AppleALC/blob/master/Resources/ALC887/Info.plist) | 0x100202, 0x100302, layout 1, 2, 3, 5, 7, 11, 12, 13, 17, 18, 20, 33, 40, 50, 52, 53, 87, 99 | 13 (10.9) | -         |
 
 ## Miscellaneous
 * Apple TV Can't Play
@@ -37,6 +37,11 @@ sudo pmset proximitywake 0
 sudo pmset tcpkeepalive 0
 ```
 
+* Mac 開機總是彈出"電腦關機是因為發生了問題"
+    解決方法 https://zhuanlan.zhihu.com/p/481976423
+    開啟系統監控程式, 選擇診斷報告, 刪除Sleep Wake Failure
+    ![](assets/images/systemmoniter.png)
+    ![](assets/images/analyerreport.png)
 ## Upgrade Opencore version
 01. Download Latest Version Opencore
     * https://github.com/acidanthera/OpenCorePkg/releases
